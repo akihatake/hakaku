@@ -25,10 +25,13 @@ body {
 }
 
 footer {
-  opacity: 0.7;
-  background-color: darkslateblue;
   color: white;
   text-align: center;
+}
+
+
+.floating {
+  background-color: transparent;
 }
 
 

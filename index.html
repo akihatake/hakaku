@@ -25,35 +25,34 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="index.html"><h1>HAKAKU</h1></a>
+        <a class="navbar-brand" href="index.html"><h1>Look for BAR</h1></a>
       </div>
-<!--
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav navbar-right">
+          <li><a href="http://webapi.suntory.co.jp/barnavidocs/"><img alt="Bar-Navi Web API" border="0" width="145" height="35" src="http://webapi.suntory.co.jp/barnavidocs/banner/barnavi_145_35_1.gif" title="Bar-Navi Web API" /></a></li>
         </ul>
       </div>
--->
     </div>
   </nav>
   <!-- ナビゲーションバー -->
 
   <!-- メイン -->
   <div class="container">
-    <div class="col-lg-12">
-      <ul id="result">
-        <!-- JavaScript で差し込み表示 -->
-      </ul>
-    </div>
-  </div>
-
-  <!-- フッター -->
-  <footer id="footer">
-    <div class="container">
+    <div class="row">
       <div class="col-lg-12">
-        <p>Created by Team HAKAKU</p>
+        <div id="result" class="list-group">
+          <!-- JavaScript で差し込み表示 -->
+        </div>
       </div>
     </div>
-  </footer>
+    <div class="row">
+      <!-- フッター -->
+      <footer id="footer">
+          <button id="btnSearch" class="btn btn-default floating">探す</button>
+          <p>Created by Team HAKAKU</p>
+      </footer>
+    </div>
+  </div>
 
   <!-- ダイアログ -->
   <div id="msgDialog" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
