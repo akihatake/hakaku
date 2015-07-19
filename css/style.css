@@ -1,13 +1,23 @@
+@import url(http://fonts.googleapis.com/css?family=Covered+By+Your+Grace);
+
 /* アプリ全設定 */
 body {
-  background-color: cornflowerblue;
+  /*background-color: #ECF0F1;*/
+  background-image: url(../img/bar_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   padding-top: 70px;
   transition: scale(1.5);
 }
 
+h1{
+  font-family: 'Covered By Your Grace', cursive;
+}
+
 .navbar-inverse {
   opacity: 0.7;
-  background-color: darkslategray;
+  background-color: #330033;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -22,6 +32,26 @@ body {
 
 .panel {
   border-radius: 0;
+}
+
+.btn-default{
+  color: #ffffff;
+  border-color: #ffffff;
+}
+
+.btn-default:hover{
+  color: #ffffff;
+  border-color: #330033;
+  background-color: #330033;
+  transition-duration: 1s;
+}
+.list-group-item{
+  background-color: rgba(255,255,255,0.7);
+  border: 1px solid #ffffff;
+}
+
+.container{
+  position: relative;
 }
 
 footer {
