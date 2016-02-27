@@ -9,7 +9,7 @@
 var baseURL = 'http://webapi.suntory.co.jp/barnavi/v2/shops?'
 // リスエストURLに追加するパラメータ定義
 var param = {
-  key: '0954a2c2b34db5c0bc4c3a3182f145af90c358ccde0f94aebf58bd14607f329e',  // アクセスキー
+  key: '（アクセスキー）',  // アクセスキー
   pattern: '1',       // 位置情報での検索設定
   lat: '39.702075',   // 緯度の初期値
   lng: '141.149297',  // 経度の初期値
